@@ -1,0 +1,30 @@
+.containerRoute{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 280px auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas:
+      "navbar navbar"
+      "sidebar main";
+  height: 100vh;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #ccc;
+    padding-top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #eee;
+    width: 30%;
+   
+  }
+  
+  .main {
+    grid-area: main;
+}

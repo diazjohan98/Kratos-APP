@@ -1,0 +1,11 @@
+.mainColaboradores{
+    background-color: var(--color-fontSecundary);
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 7px;
+}
+.inputListasFilter{
+    margin: 9px;
+    width: 290px;
+}
+

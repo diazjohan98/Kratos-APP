@@ -1,0 +1,56 @@
+.containerDetallesColaborador {
+  background-color: var(--color-fontSecundary);
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.containerTitleDetalles {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.btnAtrasDetalle {
+  color: var(--color-fontSecundary);
+  border: none;
+  padding: 5px 12px;
+}
+.tituloDetalles {
+  font-family: DefaultFont-Bd;
+}
+.parrafoDetalle{
+    font-size: 0.85rem;
+    line-height: 1;
+}
+.titleDetallesColaborador {
+  font-family: DefaultFont-Bd;
+}
+.ContainerPrimaryDetalles{
+    font-size: 0.85rem;
+}
+
+.containerPrincipalDetalles{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.imgPerfilDetalle{
+    border-radius: 50%;
+    width: 160px;
+}
+.btnAsignar{
+  float: right;
+  margin-right: 31px;
+  margin-top: -11px;
+}
+
+
+.habilidades{
+  margin-top: 20px;
+  margin-left: 61px;
+  margin-bottom: -24px;
+}
+
+.proyectos{
+  margin-left: 61px;
+}

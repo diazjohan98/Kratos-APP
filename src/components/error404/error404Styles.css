@@ -1,0 +1,25 @@
+.containerError404{
+    display: flex;
+    left: -19px;
+    top: 0px;
+    position: absolute;
+    height: 101vh;
+    width: 100vw;
+    z-index: 1000 !important;
+    background-color: var(--color-fontSecundary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.error404Images{
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 107px; */
+}
+
+.parrafo404{
+    margin-top: 20px;
+    margin-left: 137px;
+    color: var(--color-fund-dashboard);
+}

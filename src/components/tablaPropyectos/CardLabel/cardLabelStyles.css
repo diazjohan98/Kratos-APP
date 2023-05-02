@@ -1,0 +1,85 @@
+.__card__style {
+    height: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__card__style__span {
+    font-size: 0.7rem;
+    display: inline-block;
+    text-align: center;
+    font-family: DefaultFont-Re;
+}
+
+.__card__style__active {
+    background-color: #4CC138;
+    color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__blue {
+    background-color: #6FAEF8;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__cancelled {
+    background-color: #b3b3b3;
+    color: #5f5f5f;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__danger {
+    background-color: #910303;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__green {
+    background-color: #72F86F;
+    color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__inactive {
+    background-color: #6FF0F8;
+    color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__red {
+    background-color: #F86F6F;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__success {
+    background-color: #28d818;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__warning {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.__card__style__yellow {
+    background-color: #F8E26F;
+    color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+}

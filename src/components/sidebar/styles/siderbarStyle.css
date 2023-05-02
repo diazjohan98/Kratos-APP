@@ -1,0 +1,83 @@
+
+.siderbar{
+    width: 20%;
+    height: calc(98vh - 52px);
+    background: #fff;
+    border-radius: 0 15px;
+    position: fixed;
+    top: 60px;
+    z-index: 1000;
+}
+
+.UlSidebar {
+
+    margin-top: 15px;
+    list-style: none;
+    padding: 1rem;
+    background-color: var(--color-fontSecundary);
+    border-radius: none;
+
+}
+a{
+    font-size: 13px;
+    color: var(--color-fund-dashboard);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-primary);
+}
+
+.active{
+    border-radius: 15px;
+    background: var(--color-primary);
+    color: #fff;
+    width: 169.3px; 
+}
+
+.active:hover{
+    color: var(--color-fontSecundary);
+}
+
+
+
+#dropdown-administradores{
+    font-size: 0.7rem;
+    /* background-color: var(--color-fontSecundary); */
+    color: var(--color-fund-dashboard);
+    border: none;
+    position: relative;
+    top: -24px;
+    left: 24px;
+    border-radius: 15px;
+    padding: 0;
+}
+
+
+
+
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    height: 0px;
+}
+
+.btn-Administrador {
+    margin-top: 27px;
+    margin-left: -28px;
+}
+
+.btnAdministradoresIcon{
+    background-color: var(--color-fontSecundary);
+    color: var(--color-fund-dashboard);
+}
+.btnAdministradoresIcon::hover{
+    color: var(--color-primary);
+}
+
+.containerTablasDeUsuTec{
+    margin-left: 10px;
+}
+.dropdown-menu.show {
+    display: block;
+    margin-left: 20px;
+}

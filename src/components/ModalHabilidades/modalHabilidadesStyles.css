@@ -1,0 +1,24 @@
+.containerinputPrimaryHabilidades{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 39px;
+}
+.puntacionTitle{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    font-size: 0.7rem;
+    font-family: DefaultFont-Bd;
+}
+.detalles{
+    width: 300px;
+}
+
+.containerinputSecondaryHabilidades{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 39px;
+    flex-wrap: wrap;
+}

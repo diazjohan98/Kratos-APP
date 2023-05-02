@@ -1,0 +1,13 @@
+.containerTitleTablaUsuario{
+    background-color: var(--color-fontSecundary);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.filterBtnTablaAdmin{
+    float: right;
+    margin-top: -43px;
+    margin-right: 20px;
+}

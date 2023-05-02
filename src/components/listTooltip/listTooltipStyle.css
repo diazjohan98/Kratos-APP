@@ -1,0 +1,19 @@
+.listaTooltips{
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+
+.infoItem{
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+#tlp-collaborators-1{
+    font-size: 0.6rem;
+}
+
+.spanTabla{
+    font-size: 0.6rem;
+    
+}

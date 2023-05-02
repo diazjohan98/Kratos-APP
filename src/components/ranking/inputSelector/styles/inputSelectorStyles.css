@@ -1,0 +1,20 @@
+select{
+    background-color: #FBFBFB;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    /* position: relative; */
+    color: #B1AAAA;
+    font-size: 0.75rem;
+    padding: 10px;
+    padding-left: 10px;
+    outline: none;
+    /* margin-bottom: 15px; */
+    border-radius: 15px 0px 0px 15px;
+    width: 230px;
+}
+
+.btnInputSelect{
+    /* margin-left: -40px; */
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px;
+}

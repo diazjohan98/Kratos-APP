@@ -1,0 +1,53 @@
+.mainProyectos{
+    background-color: var(--color-fontSecundary);
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 7px;
+}
+.containerTitleProyecto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btnAgregarCRUD{
+    background-color: var(--color-primary);
+    font-size: 0.7rem;
+    padding: 10px;
+    margin-bottom: 11px;
+    border-radius: 15px;
+}
+
+.btnAgregarCRUD:hover{
+    background-color: var(--color-btnHover);
+}
+
+.btnCerrarCRUD{
+    background-color: var(--color-btnCancelar-Modal);
+    font-size: 0.7rem;
+    padding: 10px;
+    margin-bottom: 11px;
+    border-radius: 15px;
+    border: none;
+}
+
+.containerProyecto{
+    margin-top: 33px;
+    /* margin-left: -101px; */
+    margin-right: 7px;
+}
+
+
+.lista{
+    margin-left: 30px;
+}
+
+.tituloModal{
+    font-size: 1rem;
+    font-family: DefaultFont-Bd;
+}

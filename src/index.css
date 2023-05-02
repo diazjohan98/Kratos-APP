@@ -1,0 +1,59 @@
+:root{
+  --color-primary: #6369FD;  
+  --color-btnHover: #4d53fa;
+  --color-alertLogin: #F36A6A;
+  --color-alertLoginFont: #8D3030;
+  --color-fontSecundary: #fff;
+  --color-gray-background: #D9D9D9;
+  --color-login-background: #EEEEEE;
+  --color-fund-dashboard: #8C8282;
+  --color-card-activos: #4cc138;
+  --color-card-inactivos: #BFC138;
+  --color-card-suspendidos: #3890C1; 
+  --color-card-retirados: #C13838; 
+  --color-btnCancelar-Modal: #BCB8B8;
+
+}
+
+
+
+/************************* Fuentes *************************/
+@font-face {
+  font-family: DefaultFont-Bd;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-BdIt;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-BoldItalic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-It;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-Italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-Lt;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-LtIt;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-LightItalic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-Md;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-MdIt;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-MediumItalic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DefaultFont-Re;
+  src: url("./assets/fonts/PoppinsFamily/Poppins-Regular.ttf") format('truetype');
+}

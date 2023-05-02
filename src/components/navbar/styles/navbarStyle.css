@@ -1,0 +1,92 @@
+/* .navbar{
+  position: relative;
+  width: 100%;
+  height: 50px;
+} */
+
+.navbar-container {
+  background: var(--color-fontSecundary);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+  font-family: DefaultFont-Re;
+  height: 50px;
+  
+}
+
+.titleLogo {
+  display: flex;
+  background-color: var(--color-fontSecundary);
+}
+.titleEmail {
+  display: flex;
+  background-color: var(--color-fontSecundary);
+}
+.img-logo {
+  width: 37px;
+  margin: 8px;
+  margin-left: 30px;
+}
+
+.title-navbar {
+  background: var(--color-fontSecundary);
+  font-family: DefaultFont-Bd;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  margin-left: 26px;
+}
+.titleCorreo {
+  margin-top: 14px;
+  margin-bottom: 23px;
+  margin-right: 37px;
+  background-color: var(--color-fontSecundary);
+  font-size: 0.70588235294118rem;
+  cursor: pointer;
+}
+
+.imgProfile {
+  width: 23px;
+  border-radius: 50%;
+  margin-right: 26px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
+
+.iconoBottom {
+  position: relative;
+  top: -4px;
+  background-color: var(--color-fontSecundary);
+}
+.containerCerrar {
+  display: none; /* El cuadro no se mostrará al principio */
+  background-color: var(--color-fontSecundary);
+  box-shadow: 5px 11px 20px var(--color-fund-dashboard);
+  position: absolute;
+  top: 125.5%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  padding-top: 6px;
+  width: 178px;
+  height: 46px;
+  border-radius: 15px;
+  border: none;
+ 
+}
+.titleCorreo:hover + .containerCerrar {
+  display: block;
+}
+
+.iconoPower{
+    margin-right: 22px;
+    margin-left: 15px;
+}
+.titleCerrar{
+    font-size: 0.7rem;
+    background-color: var(--color-fontSecundary);
+    cursor: pointer;
+    border: none;
+    padding-left: 14px;
+}
+
+

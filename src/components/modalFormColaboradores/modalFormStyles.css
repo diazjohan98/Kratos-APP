@@ -1,0 +1,100 @@
+/* .modal-content {
+    width: 135%;
+} */
+
+.containerModalColaboradores{
+    display: flex;
+}
+.tituloRegularModal{
+    font-family: DefaultFont-Re;
+    font-size: 0.65rem;
+    padding-bottom: 10px;
+}
+.inputTextArea{
+    font-size: 0.7rem;
+    border-radius: 15px;
+}
+
+.containerinputFechas{
+    display: flex;
+    margin-top: -15px;
+}
+
+.fechaInicio{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 5px;
+}
+
+.fechaFinal{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 5px;
+}
+.containerInputs{
+    margin-top: -15px;
+}
+.inputSeleccionar{
+    margin: 0;
+}
+
+.inputSeleccionarReact .css-13cymwt-control {
+    border-radius: 15px;
+}
+
+.inputSeleccionarReact .css-1y7rh0y-MultiValueGeneric2{
+    font-size: 0.7rem;
+    
+}
+/* .css-1y7rh0y-MultiValueGeneric2 {
+    font-size: 0.7rem;
+} */
+.containerInputsTitle{
+    margin-top: -30px;
+}
+
+.containerformulary{
+    display: flex;
+    /* width: 135%; */
+}
+.containerinputPrimary{
+    width: 50%;
+    margin: 5px;
+    margin-right: 50px;
+}
+.containerinputSecondary{
+    width: 50%;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.formDate{
+    width: 100%;
+}
+
+.imgPredeterminada{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 152px;
+    height: 152px;
+    object-fit: cover;
+    object-position: center;
+    /* opacity: 0.6; */
+}
+.containerImgColaboradores{
+    margin-left: 81px;
+    margin-right: auto;
+}
+
+.iconoImgCRUD{
+    font-size: 2rem;
+    position: relative;
+    right: 95px;
+    opacity: 0.6;
+}
+
+.inputIMG{
+    margin-top: 20px;
+}

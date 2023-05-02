@@ -1,0 +1,8 @@
+.containerTablaAdminTecnologias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablaTecnologias{
+    width: 350px;
+}

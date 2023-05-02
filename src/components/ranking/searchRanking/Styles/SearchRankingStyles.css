@@ -1,0 +1,35 @@
+.containerSearch{
+  display: flex;
+  margin: 10px;
+}
+
+button{
+  border-radius: 15px;
+  /* font-size: 14px; */
+}
+
+.inputSearch{
+  /* background-color: #FBFBFB;  */
+  margin-left: 0px;
+  margin-right: 20px;
+  position: relative;
+  color: #B1AAAA;
+  font-size: 0.7rem;
+  /* padding: 10px; */
+  /* padding-left: 10px; */
+  outline: none;
+  /* margin-bottom: 15px; */
+  border-radius: 15px;
+  width: 230px;
+  }
+  .inputSelector{
+    font-size: 14px;
+    border-radius: 15px;
+  }
+
+  .btnPrincipalInput{
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+    color: var(--color-fontSecundary);
+  }

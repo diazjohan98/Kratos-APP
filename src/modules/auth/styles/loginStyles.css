@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    font-size: 20px;
+    font-family: DefaultFont-Re;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-fontSecundary);
+    margin: 0px;
+    font-size: 20px;
+    font-family: DefaultFont-Re;
+}
+
+.img-login {
+    width: 60%;
+    height: 730px;
+}
+
+.container-form {
+    width: 35%;
+    height: 0;
+    margin: 60px;
+    position: relative;
+    top: 75px;
+}
+
+.form-title-input{
+  margin: 30px;
+}
+
+.titlePrimary {
+    font-family: DefaultFont-Bd;
+    font-size: 1.6rem;
+}
+
+.titleSecunday {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+label{
+    position: relative;
+    top: 20px;
+    font-family: DefaultFont-Md;
+
+}
+.inputLogin {
+    margin-top: 15px;
+    width: 412px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    border-bottom: 1px solid #000;
+    outline: none;
+
+}
+
+
+form {
+    margin-top: 0px;
+    /* background-color: var(--color-login-background); */
+}
+
+.errorMessage{
+  background-color: var(--color-alertLogin);
+  color: var(--color-alertLoginFont);
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.btnIngresarLogin{
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background: var(--color-primary);
+    color: var(--color-fontSecundary);
+    width: 412px;
+    outline: none;
+    border-radius: 15px;
+}
+
+.btnIngresarLogin:hover{
+  background-color: var(--color-btnHover);
+
+}

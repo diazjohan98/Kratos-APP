@@ -1,0 +1,49 @@
+.tituloRegularModal{
+    font-family: DefaultFont-Re;
+    font-size: 0.65rem;
+    padding-bottom: 10px;
+}
+.inputTextArea{
+    font-size: 0.7rem;
+    border-radius: 15px;
+}
+
+.containerinputFechas{
+    display: flex;
+    margin-top: -15px;
+}
+
+.fechaInicio{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 5px;
+}
+
+.fechaFinal{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 5px;
+}
+.containerInputs{
+    margin-top: -15px;
+}
+.inputSeleccionar{
+    margin: 0;
+}
+
+.inputSeleccionarReact .css-13cymwt-control {
+    border-radius: 15px;
+}
+
+.inputSeleccionarReact .css-1y7rh0y-MultiValueGeneric2{
+    font-size: 0.7rem;
+    
+}
+/* .css-1y7rh0y-MultiValueGeneric2 {
+    font-size: 0.7rem;
+} */
+.containerInputsTitle{
+    margin-top: -30px;
+}

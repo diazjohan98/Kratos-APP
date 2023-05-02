@@ -1,0 +1,37 @@
+.card{
+    padding-top: 18px;
+    padding-left: 34.93px;
+    padding: 15px;
+    padding-right: 61.85px;
+    height: 130px;
+    margin-right: 39.5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.titleStatus{
+    font-size: 0.7rem;
+    margin-bottom: 9px;
+
+}
+.numEmpleado{
+    margin-bottom: 17px;
+    font-size: 1rem;
+}
+.dateEmpleado{
+    font-size: 0.7rem;
+}
+
+.containerCards{
+   margin: 18px 0 15px 38.04px; 
+
+}
+
+.iconoStatus{
+    padding-left: 372.87px; 
+    /* padding-right: 45px; */
+    position: relative;
+    top: -111px;
+}
